@@ -6,18 +6,20 @@ body {
     flex-direction: column;
     justify-content: space-between;
     }
+
 /* HEADER */
 
 .header  {
     background-color: #1F2937;
     display: flex;
     justify-content: space-between;
-    /* margin: 0;*/
     padding: 12px 100px; 
     }
+
 .links ul {
     display: flex;
     gap: 24px;
+    list-style: none;
 }
 
 a {
@@ -82,9 +84,7 @@ button#top {
 }
 
 /* RANDOM INFORMATION */
-.gallery {
-    /* margin: 48px; */
-}
+
 .gallery h1 {
     text-align: center;
     font-size: 36px;
@@ -120,9 +120,6 @@ button#top {
     justify-content: center;
 }
 .grey .container {
-    display: flex;
-    flex-direction: column;
-    gap: 0px;
     width: 50vw;
     padding: 100px;
     
